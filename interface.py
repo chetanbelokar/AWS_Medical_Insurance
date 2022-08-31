@@ -5,7 +5,7 @@ from project_app.utils import MedicalInsurence
 
 app = Flask(__name__)
 
-
+    
 @app.route('/')
 def main():
     return render_template('home.html',)
